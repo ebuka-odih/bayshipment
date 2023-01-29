@@ -363,7 +363,7 @@
                         <div class="container">
                             <div class="logo logo-desk">
                                 <a href="index.html" title="CourierPlus Nigeria">
-                                    <img class="mobile-logo" style="max-width:150px;max-height:65px;" src="wp-content/uploads/2021/06/couriermobile.png" alt="CourierPlus Nigeria">
+                                    <h4 style="font-weight: bolder; margin-top: 10px; color: #d18585">BayShipment</h4>
                                 </a>
                             </div>
                             <div class="mob-menu-toggle"><span></span></div>
@@ -402,7 +402,7 @@
                             <a href="{{ route('index') }}" title="CourierPlus Nigeria">
 {{--                                <img class="normal-logo" style="max-width:250px;max-height:89px;" src="wp-content/uploads/2021/06/stickercourier-logo.png" alt="CourierPlus Nigeria">--}}
 {{--                                <img class="sticky-logo" style="max-width:250px;max-height:89px;margin-top:-44.5px;margin-left:-125px" src="wp-content/uploads/2021/06/stickercourier-logo.png" alt="CourierPlus Nigeria">--}}
-                            <h3 style="font-weight: bolder; margin-top: 30px">BayShipment</h3>
+                            <h3 style="font-weight: bolder; margin-top: 30px; color: #d18585">BayShipment</h3>
                             </a>
                         </div>
 
