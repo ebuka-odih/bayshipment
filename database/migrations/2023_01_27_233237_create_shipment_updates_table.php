@@ -21,6 +21,7 @@ class CreateShipmentUpdatesTable extends Migration
             $table->string('status');
             $table->string('updated_by');
             $table->string('remark')->nullable();
+            $table->bigInteger('shipment_id');
 
         });
     }

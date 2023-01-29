@@ -49,7 +49,6 @@ class CreateShipmentsTable extends Migration
             $table->string('pickup_time');
             $table->text('comment')->nullable();
 
-            $table->bigInteger('shipment_update_id');
         });
     }
 
