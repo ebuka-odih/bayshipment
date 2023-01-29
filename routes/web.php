@@ -14,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'pages.index')->name('index');
+Route::view('/about-us', 'pages.about-us')->name('about');
+
+
+
 include 'admin.php';
 
 Auth::routes();

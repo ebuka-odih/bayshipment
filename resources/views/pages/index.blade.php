@@ -1,7 +1,473 @@
 @extends('pages.layout.app')
 @section('content')
 
-<div id="et-content" class='content et-clearfix'>
+    <!-- START slider2 REVOLUTION SLIDER 6.4.11 -->
+    <p class="rs-p-wp-fix"></p>
+    <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="background:#212121;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;background-image:url(https://enovathemes.com/globax/wp-content/uploads/slider_pattern_dark.png);background-repeat:repeat;background-size:contain;background-position:left top;">
+        <rs-module id="rev_slider_1_1" style="" data-version="6.4.11">
+            <rs-slides>
+                <rs-slide data-key="rs-1" data-title="Slide 1" data-thumb="//www.courierplus-ng.com/wp-content/uploads/2018/07/background14-100x50.jpg" data-in="o:0;" data-out="x:(-100%);">
+                    <img src="wp-content/uploads/2018/07/background14.jpg" title="background14" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-parallax="3" data-no-retina>
+                    <!--
+                                                --><rs-layer
+                        id="slider-1-slide-1-layer-1"
+                        data-type="text"
+                        data-xy="xo:0,-1px,0,1px;yo:114px,102px,100px,139px;"
+                        data-text="s:14;l:24;ls:1px;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-frame_0="o:1;"
+                        data-frame_0_sfx="se:blocktoright;"
+                        data-frame_1="e:power4.inOut;st:480;sp:1500;sR:480;"
+                        data-frame_1_sfx="se:blocktoright;"
+                        data-frame_999="o:0;st:w;sR:7020;"
+                        style="z-index:5;font-family:Roboto;text-transform:uppercase;"
+                    >What we do
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-1-layer-2"
+                        data-type="text"
+                        data-xy="xo:0,-1px,0,1px;yo:153px,130px,132px,171px;"
+                        data-text="s:52,72,48,24;l:88,88,56,32;ls:6px,6px,3px,1px;fw:700;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16,16,8,4;l:0,16,8,4;"
+                        data-frame_0="x:-175%;o:1;"
+                        data-frame_0_mask="u:t;x:100%;"
+                        data-frame_1="e:easeOutExpo;st:1800;sp:1500;sR:1800;"
+                        data-frame_1_mask="u:t;"
+                        data-frame_999="o:0;st:w;sR:5700;"
+                        style="z-index:6;font-family:Montserrat;"
+                    >WE SOLVE YOUR
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-1-layer-3"
+                        data-type="text"
+                        data-xy="xo:0,-1px,0,1px;yo:215px,214px,192px,205px;"
+                        data-text="s:52,72,48,24;l:88,88,56,32;ls:6px,6px,3px,1px;fw:700;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16,16,8,4;l:0,16,8,4;"
+                        data-frame_0="x:-175%;o:1;"
+                        data-frame_0_mask="u:t;x:100%;"
+                        data-frame_1="e:easeOutExpo;st:2000;sp:1500;sR:2000;"
+                        data-frame_1_mask="u:t;"
+                        data-frame_999="o:0;st:w;sR:5500;"
+                        style="z-index:7;font-family:Montserrat;"
+                    >LOGISTICS
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-1-layer-4"
+                        data-type="text"
+                        data-color="#f06305||#fd8c40||#fd8c40||#fd8c40"
+                        data-xy="xo:1px,0,0,1px;yo:277px,297px,252px,239px;"
+                        data-text="s:52,72,48,24;l:88,88,56,32;ls:6px,6px,3px,1px;fw:700;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16,16,8,4;l:0,16,8,4;"
+                        data-frame_0="x:-175%;o:1;"
+                        data-frame_0_mask="u:t;x:100%;"
+                        data-frame_1="e:easeOutExpo;st:2200;sp:1500;sR:2200;"
+                        data-frame_1_mask="u:t;"
+                        data-frame_999="o:0;st:w;sR:5300;"
+                        style="z-index:8;font-family:Montserrat;"
+                    >CHALLENGES
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-1-layer-5"
+                        class="scroll-down-line tp-shape tp-shapewrapper"
+                        data-type="shape"
+                        data-xy="x:r;xo:20px,4px,4px,4px;y:b;yo:120px,40px,40px,40px;"
+                        data-text="fw:100;a:inherit;"
+                        data-dim="w:2px;h:24px;"
+                        data-vbility="t,f,f,f"
+                        data-rsp_bd="off"
+                        data-frame_0="y:100%;"
+                        data-frame_1="e:easeOutExpo;st:2600;sp:600;sR:2600;"
+                        data-frame_999="o:0;st:w;sR:5800;"
+                        style="z-index:9;background-color:#fd8c40;"
+                    >
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-1-layer-6"
+                        class="scroll-down-text"
+                        data-type="text"
+                        data-xy="x:r;xo:-8px,-25px,-25px,-25px;y:b;yo:177px,96px,96px,96px;"
+                        data-text="s:14;l:24;ls:1px;a:inherit;"
+                        data-vbility="t,f,f,f"
+                        data-actions='o:click;a:scrollbelow;offset:-90px;d:0;sp:600;e:none;'
+                        data-rsp_bd="off"
+                        data-frame_0="rZ:-90;"
+                        data-frame_1="rZ:-90;e:power4.inOut;st:2900;sp:600;sR:2900;"
+                        data-frame_999="o:0;st:w;sR:5500;"
+                        style="z-index:10;font-family:Roboto;text-transform:uppercase;"
+                    >Scroll
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-1-layer-7"
+                        data-type="text"
+                        data-xy="xo:-14px;yo:364px,547px,332px,295px;"
+                        data-text="s:14;l:24;ls:6px,6px,3px,1px;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16;l:16;"
+                        data-frame_0="x:50px;"
+                        data-frame_1="e:easeOutExpo;st:3200;sp:600;sR:3200;"
+                        data-frame_999="o:0;st:w;sR:5200;"
+                        style="z-index:11;font-family:Montserrat;"
+                    ><a target="_self" href="services/index.html" id="et-button-1" style="color:#ffffff;font-weight:700 !important;" class="et-button  theme-button icon-position-left modal-false medium hover-none false click-none" data-color="#ffffff" data-colorhover="#ffffff"><span style="background-color:#fd8c40 !important;" class="hover"></span><span style="box-shadow:inset 0 0 0 1px #ffffff  !important;" class="regular"></span><span class="text">SEE DETAILS</span></a>
+                    </rs-layer><!--
+-->						</rs-slide>
+                <rs-slide data-key="rs-2" data-title="Slide 2" data-thumb="//www.courierplus-ng.com/wp-content/uploads/2018/07/background4-100x50.jpg" data-in="o:0;" data-out="x:(-100%);">
+                    <img src="wp-content/uploads/2018/07/background4.jpg" title="background4" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-parallax="3" data-no-retina>
+                    <!--
+                                                --><rs-layer
+                        id="slider-1-slide-2-layer-1"
+                        data-type="text"
+                        data-xy="xo:0,-2px,0,1px;yo:119px,104px,100px,139px;"
+                        data-text="s:14;l:24;ls:1px;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-frame_0="o:1;"
+                        data-frame_0_sfx="se:blocktoright;"
+                        data-frame_1="e:power4.inOut;st:450;sp:1500;sR:450;"
+                        data-frame_1_sfx="se:blocktoright;"
+                        data-frame_999="o:0;st:w;sR:7050;"
+                        style="z-index:5;font-family:Roboto;text-transform:uppercase;"
+                    >What we do
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-2-layer-2"
+                        data-type="text"
+                        data-xy="xo:0,-2px,0,1px;yo:158px,132px,132px,171px;"
+                        data-text="s:52,72,48,24;l:88,88,56,32;ls:6px,6px,3px,1px;fw:700;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16,16,8,4;l:0,16,8,4;"
+                        data-frame_0="x:-175%;o:1;"
+                        data-frame_0_mask="u:t;x:100%;"
+                        data-frame_1="e:easeOutExpo;st:1800;sp:1500;sR:1800;"
+                        data-frame_1_mask="u:t;"
+                        data-frame_999="o:0;st:w;sR:5700;"
+                        style="z-index:6;font-family:Montserrat;"
+                    >WE PUT THE WIND
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-2-layer-3"
+                        data-type="text"
+                        data-xy="xo:0,-1px,0,1px;yo:222px,208px,192px,205px;"
+                        data-text="s:52,72,48,24;l:88,88,56,32;ls:6px,6px,3px,1px;fw:700;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16,16,8,4;l:0,16,8,4;"
+                        data-frame_0="x:-175%;o:1;"
+                        data-frame_0_mask="u:t;x:100%;"
+                        data-frame_1="e:easeOutExpo;st:2000;sp:1500;sR:2000;"
+                        data-frame_1_mask="u:t;"
+                        data-frame_999="o:0;st:w;sR:5500;"
+                        style="z-index:7;font-family:Montserrat;"
+                    >BENEATH YOUR
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-2-layer-4"
+                        data-type="text"
+                        data-color="#f06305||#fd8c40||#fd8c40||#fd8c40"
+                        data-xy="xo:1px,-1px,0,1px;yo:287px,287px,252px,239px;"
+                        data-text="s:52,72,48,24;l:88,88,56,32;ls:6px,6px,3px,1px;fw:700;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16,16,8,4;l:0,16,8,4;"
+                        data-frame_0="x:-175%;o:1;"
+                        data-frame_0_mask="u:t;x:100%;"
+                        data-frame_1="e:easeOutExpo;st:2200;sp:1500;sR:2200;"
+                        data-frame_1_mask="u:t;"
+                        data-frame_999="o:0;st:w;sR:5300;"
+                        style="z-index:8;font-family:Montserrat;"
+                    > LOGISTICS
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-2-layer-5"
+                        class="scroll-down-line tp-shape tp-shapewrapper"
+                        data-type="shape"
+                        data-xy="x:r;xo:20px,4px,4px,4px;y:b;yo:120px,40px,40px,40px;"
+                        data-text="fw:100;a:inherit;"
+                        data-dim="w:2px;h:24px;"
+                        data-vbility="t,f,f,f"
+                        data-rsp_bd="off"
+                        data-frame_0="y:100%;"
+                        data-frame_1="e:easeOutExpo;st:2600;sp:600;sR:2600;"
+                        data-frame_999="o:0;st:w;sR:5800;"
+                        style="z-index:9;background-color:#fd8c40;"
+                    >
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-2-layer-6"
+                        class="scroll-down-text"
+                        data-type="text"
+                        data-xy="x:r;xo:-8px,-25px,-25px,-25px;y:b;yo:177px,96px,96px,96px;"
+                        data-text="s:14;l:24;ls:1px;a:inherit;"
+                        data-vbility="t,f,f,f"
+                        data-actions='o:click;a:scrollbelow;offset:-90px;d:0;sp:600;e:none;'
+                        data-rsp_bd="off"
+                        data-frame_0="rZ:-90;"
+                        data-frame_1="rZ:-90;e:power4.inOut;st:2900;sp:600;sR:2900;"
+                        data-frame_999="o:0;st:w;sR:5500;"
+                        style="z-index:10;font-family:Roboto;text-transform:uppercase;"
+                    >Scroll
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-2-layer-7"
+                        data-type="text"
+                        data-xy="xo:-14px;yo:372px,547px,332px,295px;"
+                        data-text="s:14;l:24;ls:6px,6px,3px,1px;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16;l:16;"
+                        data-frame_0="x:50px;"
+                        data-frame_1="e:easeOutExpo;st:3200;sp:600;sR:3200;"
+                        data-frame_999="o:0;st:w;sR:5200;"
+                        style="z-index:11;font-family:Montserrat;"
+                    ><a target="_self" href="services/logistics/index.html" id="et-button-2" style="color:#ffffff;font-weight:700 !important;" class="et-button  theme-button icon-position-left modal-false medium hover-none false click-none" data-color="#ffffff" data-colorhover="#ffffff"><span style="background-color:#fd8c40 !important;" class="hover"></span><span style="box-shadow:inset 0 0 0 1px #ffffff  !important;" class="regular"></span><span class="text">SEE DETAILS</span></a>
+                    </rs-layer><!--
+-->						</rs-slide>
+                <rs-slide data-key="rs-3" data-title="Slide 3" data-thumb="//www.courierplus-ng.com/wp-content/uploads/2018/06/background9-100x50.jpg" data-in="o:0;" data-out="x:(-100%);">
+                    <img src="wp-content/uploads/2018/06/background9.jpg" title="background9" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-parallax="3" data-no-retina>
+                    <!--
+                                                --><rs-layer
+                        id="slider-1-slide-3-layer-1"
+                        data-type="text"
+                        data-xy="xo:1px,3px,0,1px;yo:117px,118px,100px,139px;"
+                        data-text="s:14;l:24;ls:1px;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-frame_0="o:1;"
+                        data-frame_0_sfx="se:blocktoright;"
+                        data-frame_1="e:power4.inOut;st:450;sp:1500;sR:450;"
+                        data-frame_1_sfx="se:blocktoright;"
+                        data-frame_999="o:0;st:w;sR:7050;"
+                        style="z-index:5;font-family:Roboto;text-transform:uppercase;"
+                    >What we do
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-3-layer-2"
+                        data-type="text"
+                        data-xy="xo:0,1px,0,1px;yo:156px,150px,132px,171px;"
+                        data-text="s:52,72,48,24;l:88,88,56,32;ls:6px,6px,3px,1px;fw:700;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16,16,8,4;l:0,16,8,4;"
+                        data-frame_0="x:-175%;o:1;"
+                        data-frame_0_mask="u:t;x:100%;"
+                        data-frame_1="e:easeOutExpo;st:1800;sp:1500;sR:1800;"
+                        data-frame_1_mask="u:t;"
+                        data-frame_999="o:0;st:w;sR:5700;"
+                        style="z-index:6;font-family:Montserrat;"
+                    >OCEANS ARE PONDS
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-3-layer-3"
+                        data-type="text"
+                        data-xy="xo:0,-1px,0,1px;yo:219px,229px,192px,205px;"
+                        data-text="s:52,72,48,24;l:88,88,56,32;ls:6px,6px,3px,1px;fw:700;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16,16,8,4;l:0,16,8,4;"
+                        data-frame_0="x:-175%;o:1;"
+                        data-frame_0_mask="u:t;x:100%;"
+                        data-frame_1="e:easeOutExpo;st:2000;sp:1500;sR:2000;"
+                        data-frame_1_mask="u:t;"
+                        data-frame_999="o:0;st:w;sR:5500;"
+                        style="z-index:7;font-family:Montserrat;"
+                    >WHEN WE CARRY
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-3-layer-4"
+                        data-type="text"
+                        data-color="#f06305||#fd8c40||#fd8c40||#fd8c40"
+                        data-xy="xo:2px,-1px,0,1px;yo:280px,309px,252px,239px;"
+                        data-text="s:52,72,48,24;l:88,88,56,32;ls:6px,6px,3px,1px;fw:700;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16,16,8,4;l:0,16,8,4;"
+                        data-frame_0="x:-175%;o:1;"
+                        data-frame_0_mask="u:t;x:100%;"
+                        data-frame_1="e:easeOutExpo;st:2200;sp:1500;sR:2200;"
+                        data-frame_1_mask="u:t;"
+                        data-frame_999="o:0;st:w;sR:5300;"
+                        style="z-index:8;font-family:Montserrat;"
+                    > YOUR CARGO
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-3-layer-5"
+                        class="scroll-down-line tp-shape tp-shapewrapper"
+                        data-type="shape"
+                        data-xy="x:r;xo:20px,4px,4px,4px;y:b;yo:120px,40px,40px,40px;"
+                        data-text="fw:100;a:inherit;"
+                        data-dim="w:2px;h:24px;"
+                        data-vbility="t,f,f,f"
+                        data-rsp_bd="off"
+                        data-frame_0="y:100%;"
+                        data-frame_1="e:easeOutExpo;st:2600;sp:600;sR:2600;"
+                        data-frame_999="o:0;st:w;sR:5800;"
+                        style="z-index:9;background-color:#fd8c40;"
+                    >
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-3-layer-6"
+                        class="scroll-down-text"
+                        data-type="text"
+                        data-xy="x:r;xo:-8px,-25px,-25px,-25px;y:b;yo:177px,96px,96px,96px;"
+                        data-text="s:14;l:24;ls:1px;a:inherit;"
+                        data-vbility="t,f,f,f"
+                        data-actions='o:click;a:scrollbelow;offset:-90px;d:0;sp:600;e:none;'
+                        data-rsp_bd="off"
+                        data-frame_0="rZ:-90;"
+                        data-frame_1="rZ:-90;e:power4.inOut;st:2900;sp:600;sR:2900;"
+                        data-frame_999="o:0;st:w;sR:5500;"
+                        style="z-index:10;font-family:Roboto;text-transform:uppercase;"
+                    >Scroll
+                    </rs-layer><!--
+
+							--><rs-layer
+                        id="slider-1-slide-3-layer-7"
+                        data-type="text"
+                        data-xy="xo:-14px;yo:365px,547px,332px,295px;"
+                        data-text="s:14;l:24;ls:6px,6px,3px,1px;a:inherit;"
+                        data-rsp_o="off"
+                        data-rsp_bd="off"
+                        data-padding="r:16;l:16;"
+                        data-frame_0="x:50px;"
+                        data-frame_1="e:easeOutExpo;st:3200;sp:600;sR:3200;"
+                        data-frame_999="o:0;st:w;sR:5200;"
+                        style="z-index:11;font-family:Montserrat;"
+                    ><a target="_self" href="services/international/index.html" id="et-button-3" style="color:#ffffff;font-weight:700 !important;" class="et-button  theme-button icon-position-left modal-false medium hover-none false click-none" data-color="#ffffff" data-colorhover="#ffffff"><span style="background-color:#fd8c40 !important;" class="hover"></span><span style="box-shadow:inset 0 0 0 1px #ffffff  !important;" class="regular"></span><span class="text">SEE DETAILS</span></a>
+                    </rs-layer><!--
+-->						</rs-slide>
+            </rs-slides>
+        </rs-module>
+        <script type="text/javascript">
+            setREVStartSize({c: 'rev_slider_1_1',rl:[1240,1024,778,480],el:[500,500,480,480],gw:[1200,960,572,272],gh:[500,500,480,480],type:'standard',justify:'',layout:'fullwidth',mh:"0"});
+            var	revapi1,
+                tpj;
+            function revinit_revslider11() {
+                jQuery(function() {
+                    tpj = jQuery;
+                    revapi1 = tpj("#rev_slider_1_1");
+                    if(revapi1==undefined || revapi1.revolution == undefined){
+                        revslider_showDoubleJqueryError("rev_slider_1_1");
+                    }else{
+                        revapi1.revolution({
+                            DPR:"dpr",
+                            sliderLayout:"fullwidth",
+                            visibilityLevels:"1240,1024,778,480",
+                            gridwidth:"1200,960,572,272",
+                            gridheight:"500,500,480,480",
+                            spinner:"spinner5",
+                            perspective:600,
+                            perspectiveType:"local",
+                            editorheight:"500,500,480,480",
+                            responsiveLevels:"1240,1024,778,480",
+                            overlay: {
+                                type: 2,
+
+                            },
+                            progressBar:{disableProgressBar:true},
+                            navigation: {
+                                mouseScrollNavigation:false,
+                                wheelCallDelay:1000,
+                                onHoverStop:false,
+                                touch: {
+                                    touchenabled:true,
+                                    touchOnDesktop:true,
+                                    drag_block_vertical:true
+                                },
+                                arrows: {
+                                    enable:true,
+                                    style:"metis",
+                                    left: {
+                                        h_align:"right",
+                                        v_align:"bottom",
+                                        h_offset:60
+                                    },
+                                    right: {
+                                        v_align:"bottom",
+                                        h_offset:0
+                                    }
+                                }
+                            },
+                            parallax: {
+                                levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
+                                type:"mouse"
+                            },
+                            fanim: {
+                                in:{"o":0},
+                                out:{"a":false},
+                                speed:600
+                            },
+                            scrolleffect: {
+                                set:true,
+                                grayscale:true,
+                                multiplicator:1.3,
+                                multiplicator_layers:1.3,
+                                disable_onmobile:true
+                            },
+                            fallbacks: {
+                                panZoomDisableOnMobile:true,
+                                allowHTML5AutoPlayOnAndroid:true
+                            },
+                        });
+                    }
+
+                });
+            } // End of RevInitScript
+            var once_revslider11 = false;
+            if (document.readyState === "loading") {document.addEventListener('readystatechange',function() { if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider11 ) { once_revslider11 = true; revinit_revslider11();}});} else {once_revslider11 = true; revinit_revslider11();}
+        </script>
+        <script>
+            var htmlDivCss = unescape("%23rev_slider_1_1_wrapper%20.metis.tparrows%20%7B%0A%20%20background%3A%23ffffff%3B%0A%20%20padding%3A10px%3B%0A%20%20transition%3Aall%200.3s%3B%0A%20%20-webkit-transition%3Aall%200.3s%3B%0A%20%20width%3A60px%3B%0A%20%20height%3A60px%3B%0A%20%20box-sizing%3Aborder-box%3B%0A%20%7D%0A%20%0A%20%23rev_slider_1_1_wrapper%20.metis.tparrows.rs-touchhover%20%7B%0A%20%20%20background%3A%23ffffff%3B%0A%20%7D%0A%20%0A%20%23rev_slider_1_1_wrapper%20.metis.tparrows%3Abefore%20%7B%0A%20%20color%3A%23000000%3B%20%20%0A%20%20%20transition%3Aall%200.3s%3B%0A%20%20-webkit-transition%3Aall%200.3s%3B%0A%20%7D%0A%20%0A%20%23rev_slider_1_1_wrapper%20.metis.tparrows.rs-touchhover%3Abefore%20%7B%0A%20%20%20transform%3Ascale%281.5%29%3B%0A%20%20%7D%0A%20%0A");
+            var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+            if(htmlDiv) {
+                htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+            }else{
+                var htmlDiv = document.createElement('div');
+                htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+                document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+            }
+        </script>
+        <script>
+            var htmlDivCss = unescape("%0A%0A%0A");
+            var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+            if(htmlDiv) {
+                htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+            }else{
+                var htmlDiv = document.createElement('div');
+                htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+                document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+            }
+        </script>
+    </rs-module-wrap>
+    <!-- END REVOLUTION SLIDER -->
+
+
+
+    <div id="et-content" class='content et-clearfix'>
     <!-- post start -->
     <div id="post-3389" class="post-3389 page type-page status-publish hentry">
         <section class="page-content et-clearfix">
