@@ -319,21 +319,10 @@
 
         <nav class="mob-menu et-clearfix">
             <ul id="mob-header-menu" class="menu"><li id="menu-item-12453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3389 current_page_item menu-item-12453"><a href="index.html" aria-current="page"><span class="mi"></span><span class="txt">Home</span><span class="mi fa fa-angle-down"></span></a></li>
-                <li id="menu-item-14131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14131"><a href="about-us/index.html"><span class="mi"></span><span class="txt">About us</span><span class="mi fa fa-angle-down"></span></a>
-                    <ul class="sub-menu">
-                        <li id="menu-item-14015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14015"><a href="about-us/index.html"><span class="mi"></span><span class="txt">Who we are</span><span class="mi fa fa-angle-down"></span></a></li>
-                        <li id="menu-item-14073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14073"><a href="management-team/index.html"><span class="mi"></span><span class="txt">Management Team</span><span class="mi fa fa-angle-down"></span></a></li>
-                    </ul>
+                <li id="menu-item-14131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14131"><a href="{{ route('about') }}"><span class="mi"></span><span class="txt">About us</span><span class="mi fa fa-angle-down"></span></a>
                 </li>
-                <li id="menu-item-14020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14020"><a href="services/index.html"><span class="mi"></span><span class="txt">Services</span><span class="mi fa fa-angle-down"></span></a>
-                    <ul class="sub-menu">
-                        <li id="menu-item-14074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14074"><a href="services/courier/index.html"><span class="mi"></span><span class="txt">Courier</span><span class="mi fa fa-angle-down"></span></a></li>
-                        <li id="menu-item-14078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14078"><a href="services/logistics/index.html"><span class="mi"></span><span class="txt">Logistics</span><span class="mi fa fa-angle-down"></span></a></li>
-                        <li id="menu-item-14076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14076"><a href="services/e-commerce/index.html"><span class="mi"></span><span class="txt">E-commerce</span><span class="mi fa fa-angle-down"></span></a></li>
-                        <li id="menu-item-14077" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14077"><a href="services/international/index.html"><span class="mi"></span><span class="txt">International</span><span class="mi fa fa-angle-down"></span></a></li>
-                        <li id="menu-item-14079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14079"><a href="services/specialised-solutions/index.html"><span class="mi"></span><span class="txt">Specialised solutions</span><span class="mi fa fa-angle-down"></span></a></li>
-                        <li id="menu-item-14075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14075"><a href="services/custom-solutions/index.html"><span class="mi"></span><span class="txt">Custom solutions</span><span class="mi fa fa-angle-down"></span></a></li>
-                    </ul>
+                <li id="menu-item-14020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14020"><a href="{{ route('service') }}"><span class="mi"></span><span class="txt">Services</span><span class="mi fa fa-angle-down"></span></a>
+
                 </li>
                 <li id="menu-item-14014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14014"><a href="blog/index.html"><span class="mi"></span><span class="txt">News / updates</span><span class="mi fa fa-angle-down"></span></a></li>
                 <li id="menu-item-14019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14019"><a href="partners/index.html"><span class="mi"></span><span class="txt">Partners</span><span class="mi fa fa-angle-down"></span></a>
@@ -373,10 +362,14 @@
                 <div class="header-top">
                     <div class="container et-clearfix">
                         <div class="slogan et-clearfix">
-                            <div class="et-el-icon extra-small" style="color:#fd8c40"><span class="el-icon fas fa-map-marker-alt animate-false"></span></div><span class="et-gap-inline et-clearfix" style="width:4px"></span><span style="color:#ffffff;font-size:16px;line-height:24px">42 Concord Way off Airport Road</span><span class="et-gap-inline et-clearfix" style="width:32px">&nbsp;</span><div class="et-el-icon extra-small " style="color:#fd8c40"><span class="el-icon fas fa-phone animate-false"></span></div><span class="et-gap-inline et-clearfix" style="width:4px"></span><span style="color:#ffffff;font-size:16px;line-height:24px">Tel: +234-700-CPLUSNG</span><span class="et-gap-inline et-clearfix" style="width:32px">&nbsp;</span><div class="et-el-icon extra-small " style="color:#fd8c40"><span class="el-icon far fa-envelope-open animate-false"></span></div><span class="et-gap-inline et-clearfix" style="width:4px"></span><span style="color:#ffffff;font-size:16px;line-height:24px">Email: info@courierplus-ng.com</span>				</div>
+
+
+
+                            <div class="et-el-icon extra-small " style="color:#fd8c40"><span class="el-icon far fa-envelope-open animate-false"></span></div>
+                            <span class="et-gap-inline et-clearfix" style="width:4px"></span><span style="color:#ffffff;font-size:16px;line-height:24px">Email: info@bayshipment.com</span>
+                        </div>
                         <a class="top-button" href="http://trackpluscp.courierplus-ng.com/selfcare/shipmentrackpage.aspx">Track Now</a>
-                        <div class="header-social-links et-clearfix">
-                            <a class="et-icon-facebook" href="https://www.facebook.com/" title="facebook" target="_blank" ></a><a class="et-icon-twitter" href="https://www.twitter.com/" title="twitter" target="_blank" ></a><a class="et-icon-instagram" href="https://www.instagram.com/" title="instagram" target="_blank" ></a>				</div>
+
                         <nav class="header-top-menu et-clearfix">
                         </nav>
                     </div>
@@ -410,25 +403,11 @@
                                 <li id="menu-item-14131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="{{ route('about') }}"><span class="txt">About us</span><span class="mi fa fa-angle-down"></span></a>
 
                                 </li>
-                                <li id="menu-item-14020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="services/index.html"><span class="txt">Services</span><span class="mi fa fa-angle-down"></span></a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-14074" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="services/courier/index.html"><span class="txt">Courier</span><span class="mi fa fa-angle-down"></span></a></li>
-                                        <li id="menu-item-14078" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="services/logistics/index.html"><span class="txt">Logistics</span><span class="mi fa fa-angle-down"></span></a></li>
-                                        <li id="menu-item-14076" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="services/e-commerce/index.html"><span class="txt">E-commerce</span><span class="mi fa fa-angle-down"></span></a></li>
-                                        <li id="menu-item-14077" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="services/international/index.html"><span class="txt">International</span><span class="mi fa fa-angle-down"></span></a></li>
-                                        <li id="menu-item-14079" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="services/specialised-solutions/index.html"><span class="txt">Specialised solutions</span><span class="mi fa fa-angle-down"></span></a></li>
-                                        <li id="menu-item-14075" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="services/custom-solutions/index.html"><span class="txt">Custom solutions</span><span class="mi fa fa-angle-down"></span></a></li>
-                                    </ul>
+                                <li id="menu-item-14020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="{{ route('service') }}"><span class="txt">Services</span><span class="mi fa fa-angle-down"></span></a>
+
                                 </li>
-                                <li id="menu-item-14014" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="blog/index.html"><span class="txt">News / updates</span><span class="mi fa fa-angle-down"></span></a></li>
-                                <li id="menu-item-14019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="partners/index.html"><span class="txt">Partners</span><span class="mi fa fa-angle-down"></span></a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-14144" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="partners/agent/index.html"><span class="txt">Agent</span><span class="mi fa fa-angle-down"></span></a></li>
-                                        <li id="menu-item-14143" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="partners/franchise/index.html"><span class="txt">Franchise</span><span class="mi fa fa-angle-down"></span></a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-14165" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="career/index.html"><span class="txt">Career</span><span class="mi fa fa-angle-down"></span></a></li>
-                                <li id="menu-item-14016" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="contact-us/index.html"><span class="txt">Contact us</span><span class="mi fa fa-angle-down"></span></a></li>
+
+                                <li id="menu-item-14016" class="menu-item menu-item-type-post_type menu-item-object-page"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="{{ route('contact') }}"><span class="txt">Contact us</span><span class="mi fa fa-angle-down"></span></a></li>
                             </ul>
                         </nav>
 
@@ -446,60 +425,32 @@
             <!-- content end -->
 
             <footer data-sticky="false" class="footer et-clearfix">
-                <section class="vc_section vc_custom_1532087629320 vc_section-has-fill"><div class="vc_row wpb_row vc_row-fluid vc_column-gap-24 vc-container vc_row-o-content-middle vc_row-flex"><div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-9 vc_col-md-9 vc_col-xs-12"><div class="vc_column-inner " ><div class="wpb_wrapper"><div class="gap et-clearfix hide1024" style="height:32px"></div><ul id="menu-footer-menu" class="et-footer-menu"><li id="menu-item-14083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14083"><a href="services/courier/index.html">Courier</a></li>
-                                        <li id="menu-item-14082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14082"><a href="services/logistics/index.html">Logistics</a></li>
-                                        <li id="menu-item-14081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14081"><a href="services/e-commerce/index.html">E-commerce</a></li>
-                                        <li id="menu-item-14080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14080"><a href="services/international/index.html">International</a></li>
-                                        <li id="menu-item-13940" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13940"><a href="http://selfservicecw.courierplus-ng.com/shipmentrackpage.aspx?Track_Number">Ship Now</a></li>
-                                    </ul></div></div></div><div data-animation-delay="0" data-parallax-speed="1.5" class="text-align-right text1023-align-left footer-social-links wpb_column vc_column_container vc_col-sm-12 vc_col-lg-3 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner " ><div class="wpb_wrapper"><div id="et-social-links-1" class="et-social-links social-links et-clearfix  styling-original-false"><style>#et-social-links-1 a {color:#bdbdbd;border-radius:0px;}#et-social-links-1 a:hover {color:#ffffff;}</style><a class="et-icon-google" href="https://googleplus.com/" target="_self"></a><a class="et-icon-facebook" href="https://facebook.com/" target="_self"></a><a class="et-icon-twitter" href="https://twitter.com/" target="_self"></a><a class="et-icon-linkedin" href="https://linkedin.com/" target="_self"></a></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc-container"><div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner " ><div class="wpb_wrapper"><div class="sep-wrap left   et-clearfix" data-delay="0"><div class="et-separator solid" style="height:1px;width:100%;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#424242;"></div></div></div></div></div></div><div id="footer-widget-area" class="vc_row wpb_row vc_row-fluid vc_custom_1532087642308 vc_row-has-fill vc_column-gap-40"><div class="vc-container et-clearfix"><div data-animation-delay="0" data-parallax-speed="1.5" class="footer-logo-column wpb_column vc_column_container vc_col-sm-12 vc_col-lg-3 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner " ><div class="wpb_wrapper"><div class="gap et-clearfix " style="height:8px"></div><div data-curtain="false" data-preloader="false" data-decoration="false" data-decoration-size="small" data-animation-delay="0" data-parallax="false" data-coordinatex="0" data-coordinatey="0" data-speed="1" class="et-custom-image  alignnone overlay-none curtain-left"><div class="overlay-hover"><div class="image"><div class="image-container"><img width="250" height="89" src="wp-content/uploads/2021/06/retina-whitecourier-logo.png" alt="CourierPlus Nigeria"></div></div></div></div><div class="gap et-clearfix " style="height:16px"></div>
-                                        <div class="wpb_text_column wpb_content_element " >
-                                            <div class="wpb_wrapper">
-                                                <p><span style="color: #bdbdbd;">42 Concord Way </span><span style="color: #bdbdbd;">off Airport Road, Ikeja, </span><span style="color: #bdbdbd;">Lagos, Nigeria.</span></p>
-
-                                            </div>
-                                        </div>
-                                        <a target="_blank" href="https://goo.gl/maps/Twqnki9aQfHrBx5T9" id="et-button-4" style="color:#bdbdbd;font-size:12px !important;font-weight:700 !important;letter-spacing:0.5px !important;" class="et-button   icon-position-left modal-false small hover-fill false click-none" data-color="#bdbdbd" data-colorhover="#212121"><span style="background-color:#ffffff !important;box-shadow:inset 0 0 0 1px #ffffff !important;" class="hover"></span><span style="background-color:#212121;box-shadow:inset 0 0 0 1px #bdbdbd  !important;" class="regular"></span><span class="text">Get location</span></a><div class="gap et-clearfix hide1024" style="height:32px"></div></div></div></div><div data-animation-delay="0" data-parallax-speed="1.5" class="footer-branch-links wpb_column vc_column_container vc_col-sm-12 vc_col-lg-3 vc_col-md-3 vc_col-xs-12"><div class="vc_column-inner " ><div class="wpb_wrapper"><div  class="wpb_widgetised_column wpb_content_element">
-                                            <div class="wpb_wrapper">
-
-                                                <div id="text-1" class="widget widget_text"><div class="widget-body"><h5 class="widget_title">Useful Links</h5>			<div class="textwidget"><ul>
-                                                                <li><a href="https://courier.brickcode.technology/faq/">FAQ’s</a></li>
-                                                                <li><a href="https://courier.brickcode.technology/blog/">Updates</a></li>
-                                                                <li><a href="https://courier.brickcode.technology/partners/agent/">Agent</a></li>
-                                                                <li><a href="https://courier.brickcode.technology/quote/">Get Quote</a></li>
-                                                                <li><a href="https://courier.brickcode.technology/contact-us/">How To Ship</a></li>
-                                                            </ul>
-                                                            <ul>
-                                                                <li><a href="#">Calculator</a></li>
-                                                                <li><a href="https://courier.brickcode.technology/management-team/">Team</a></li>
-                                                                <li><a href="https://courier.brickcode.technology/open-an-account/">Open Account</a></li>
-                                                                <li><a href="https://courier.brickcode.technology/partners/">Partner</a></li>
-                                                                <li><a href="https://courier.brickcode.technology/partners/franchise/">Franchise</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div></div>
-                                            </div>
-                                        </div>
-                                    </div></div></div><div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6 vc_col-xs-12"><div class="vc_column-inner " ><div class="wpb_wrapper"><div  class="wpb_widgetised_column wpb_content_element">
-                                            <div class="wpb_wrapper">
-
-                                                <div id="mailchimp-3" class="widget widget_mailchimp"><div class="widget-body"><h5 class="widget_title">Subscribe</h5><div id="mc_embed_signup"><div class="mailchimp-subtitle">Don’t miss CourierPlus Nigeria latest news and events. Subscribe to our newsletter channel and be informed</div><form action="https://enovathemes.us12.list-manage.com/subscribe/post?u=f51d66947abf83c3737f089cc&amp;id=950c8576e9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><input type="text" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter email" required><input type="hidden" name="b_f51d66947abf83c3737f089cc_950c8576e9" tabindex="-1" value="" class="hidden"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></form><div class="mailchimp-description"></div></div></div></div>
-                                            </div>
-                                        </div>
-                                    </div></div></div></div></div></section><div class="vc_row wpb_row vc_row-fluid vc_custom_1528799455719 vc_row-has-fill vc_column-gap-24 vc_row-o-content-middle vc_row-flex"><div class="vc-container et-clearfix"><div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1528799383757" ><div class="wpb_wrapper">
-                                    <div class="wpb_text_column wpb_content_element  vc_custom_1650182880078" >
+                <div class="vc_row wpb_row vc_row-fluid vc_custom_1528799455719 vc_row-has-fill vc_column-gap-24 vc_row-o-content-middle vc_row-flex">
+                    <div class="vc-container et-clearfix">
+                        <div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-6">
+                            <div class="vc_column-inner vc_custom_1528799383757">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element  vc_custom_1650182880078">
                                         <div class="wpb_wrapper">
-                                            <p style="color: #bdbdbd;">© 2022 All Copyrights Reserved.</p>
-
+                                            <p style="color: #bdbdbd;">© 2023 All Copyrights Reserved.</p>
                                         </div>
                                     </div>
-                                </div></div></div><div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1528799418069" ><div class="wpb_wrapper">
-                                    <div class="wpb_text_column wpb_content_element  vc_custom_1622810895611 text-align-right text1023-align-left" >
+                                </div>
+                            </div>
+                        </div>
+                        <div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-6">
+                            <div class="vc_column-inner vc_custom_1528799418069">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element  vc_custom_1622810895611 text-align-right text1023-align-left">
                                         <div class="wpb_wrapper">
-                                            <p style="color: #bdbdbd;">CourierPlus Nigeria</p>
-
+                                            <p style="color: #bdbdbd;">BayShipment</p>
                                         </div>
                                     </div>
-                                </div></div></div></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </footer>
         </div>
     </div>

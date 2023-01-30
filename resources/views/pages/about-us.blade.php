@@ -150,7 +150,7 @@
                                     </h3>
                                     <div class="wpb_text_column wpb_content_element  vc_custom_1626200376829">
                                         <div class="wpb_wrapper">
-                                            <p style="text-align: center; font-size: 18px; line-height: 32px;">To achieve leadership in the African courier and logistics market by creating solutions that improve performances and enable its people and business partners.</p>
+                                            <p style="text-align: center; font-size: 18px; line-height: 32px;">To achieve leadership in the Europe courier and logistics market by creating solutions that improve performances and enable its people and business partners.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -244,7 +244,7 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <div class="gap et-clearfix " style="height:8px"></div>
-                                                                <p data-to="241" class="et-counter et-clearfix" style="font-size:48px;font-weight:400;line-height:56px;color:#212121;">
+                                                                <p data-to="15" class="et-counter et-clearfix" style="font-size:48px;font-weight:400;line-height:56px;color:#212121;">
                                                                     <span class="counter"></span>
                                                                 </p>
                                                                 <h6 class="et-highlight-title " style="font-size:12px;font-weight:700;line-height:26px;letter-spacing:0.5px;color:#ffffff;" data-mobile-font="inherit" data-tablet-font="inherit">
