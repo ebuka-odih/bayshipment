@@ -394,10 +394,6 @@
                             </a>
                         </div>
 
-
-                        <div class="search-toggle">
-                        </div>
-
                         <nav class="header-menu desk-menu et-clearfix">
                             <ul id="header-menu" class="menu"><li id="menu-item-12453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3389 current_page_item"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="index.html"><span class="txt">Home</span><span class="mi fa fa-angle-down"></span></a></li>
                                 <li id="menu-item-14131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"  data-mm="false" data-mmc="1" data-mmw="grid-aligned"><a href="{{ route('about') }}"><span class="txt">About us</span><span class="mi fa fa-angle-down"></span></a>

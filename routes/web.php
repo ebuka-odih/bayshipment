@@ -18,6 +18,8 @@ Route::view('/about-us', 'pages.about-us')->name('about');
 Route::view('/contact', 'pages.contact')->name('contact');
 Route::view('/services', 'pages.services')->name('service');
 
+Route::post('track/shipment', "ShipmentController@trackShipment")->name('trackShipment');
+
 
 
 include 'admin.php';

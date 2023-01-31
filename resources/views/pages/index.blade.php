@@ -477,38 +477,35 @@
                         <div class="vc_column-inner ">
                             <div class="wpb_wrapper">
                                 <h4 style="color: #ffffff;text-align: left" class="vc_custom_heading" data-mobile-font="inherit" data-tablet-font="inherit">Enter your tracking Number</h4>
-                                <div role="form" class="wpcf7" id="wpcf7-f14192-p3389-o1" lang="en-US" dir="ltr">
+                                <div role="form" class="wpcf7"  lang="en-US" dir="ltr">
                                     <div class="screen-reader-response">
                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                         <ul></ul>
                                     </div>
-                                    <form action="https://www.courierplus-ng.com/#wpcf7-f14192-p3389-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-                                        <div style="display: none;">
-                                            <input type="hidden" name="_wpcf7" value="14192" />
-                                            <input type="hidden" name="_wpcf7_version" value="5.6" />
-                                            <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f14192-p3389-o1" />
-                                            <input type="hidden" name="_wpcf7_container_post" value="3389" />
-                                            <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-                                        </div>
-                                        <div class="inline-row et-clearfix" style="margin:0px -12px 0px -12px;">
-                                            <div class="inline-column et-clearfix" style="width:50%; padding:0px 12px 0px 12px;">
-                      <span class="wpcf7-form-control-wrap" data-name="trackingrequest">
-                        <input type="text" name="trackingrequest" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Tracking Number" />
-                      </span>
-                                            </div>
-                                            <div class="inline-column et-clearfix" style="width:50%; padding:0px 12px 0px 12px;">
-                                                <input type="submit" value="TRACK YOUR CARGO" class="wpcf7-form-control has-spinner wpcf7-submit" />
-                                            </div>
-                                        </div>
-                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
-                                    </form>
+
+
+
                                 </div>
+                                <form action="{{ route('trackShipment') }}" method="POST"  >
+                                    @csrf
+                                    <div class="inline-row et-clearfix" style="margin:0px -12px 0px -12px;">
+                                        <div class="inline-column et-clearfix" style="width:50%; padding:0px 12px 0px 12px;">
+                                              <span class="wpcf7-form-control-wrap" data-name="trackingrequest">
+                                                <input type="text" name="shipment_number" value="" size="40" class="wpcf7-form-control wpcf7-text" placeholder="Tracking Number" />
+                                              </span>
+                                        </div>
+                                        <div class="inline-column et-clearfix" style="width:50%; padding:0px 12px 0px 12px;">
+                                            <input type="submit" value="TRACK YOUR CARGO" />
+                                        </div>
+                                    </div>
+                                </form>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <section class="vc_section">
                 <div class="vc_row wpb_row vc_row-fluid vc_custom_1531843586639 vc-container">
                     <div data-animation-delay="0" data-parallax-speed="1.5" class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-8 vc_col-xs-12">
