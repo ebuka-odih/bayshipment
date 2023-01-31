@@ -35,7 +35,7 @@
                         <tr>
                             <th class="text-center" scope="row">{{ date('Y-M-d', strtotime($item->created_at)) }}</th>
                             <td class="fw-semibold">
-                                <a href="">{{ $item->shipmentCode() }}</a>
+                                <a href="{{ route('admin.shipment.show', $item->id) }}">{{ $item->shipment_number }}</a>
                             </td>
                             <td class="fw-semibold">
                                 <strong>{{ $item->sender_name }}</strong>

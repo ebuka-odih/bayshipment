@@ -20,11 +20,18 @@ class ShipmentController extends Controller
     }
     public function store(Request $request)
     {
+
         $data = $this->getData($request);
-        $data = Shipment::create($data);
+        $data['shipment_number'] = $this->trackingNo();
+        Shipment::create($data);
         return redirect()->route('admin.shipment.index')->with('success', "Shipment Created Successful");
     }
 
+    public function show($id)
+    {
+        $shipment = Shipment::findOrFail($id);
+        return view('admin.shipment.detail', compact('shipment'));
+    }
 
     protected function getData(Request $request)
     {

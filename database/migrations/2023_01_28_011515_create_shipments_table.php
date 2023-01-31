@@ -18,6 +18,8 @@ class CreateShipmentsTable extends Migration
             $table->timestamps();
 
             //Sender info
+            $table->string('shipment_number')->nullable();
+
             $table->string('sender_name');
             $table->string('sender_email');
             $table->string('sender_phone');
