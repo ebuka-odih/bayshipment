@@ -21,46 +21,55 @@
                     <h3 class="block-title">Shipment [{{ $shipment->shipment_number }}] Detail</h3>
                 </div>
                 <div class="block-content">
-                    <h3> Sender Info</h3>
-                    <table class="table table-striped" >
-                        <tr>
-                            <th>Sender Name:</th>
-                            <td>{{ $shipment->sender_name }}</td>
-                        </tr>
-                        <tr>
-                            <th>Sender Email:</th>
-                            <td>{{ $shipment->sender_email }}</td>
-                        </tr>
-                        <tr>
-                            <th>Sender Phone:</th>
-                            <td>{{ $shipment->sender_phone }}</td>
-                        </tr>
-                        <tr>
-                            <th>Sender Address:</th>
-                            <td>{{ $shipment->sender_address }}</td>
-                        </tr>
-                    </table>
-                    <br>
-                  <h3> Receiver Info</h3>
-                    <table class="table table-striped" >
-                        <tr>
-                            <th>Receiver Name:</th>
-                            <td>{{ $shipment->rec_name }}</td>
-                        </tr>
-                        <tr>
-                            <th>Receiver Email:</th>
-                            <td>{{ $shipment->rec_email }}</td>
-                        </tr>
-                        <tr>
-                            <th>Receiver Phone:</th>
-                            <td>{{ $shipment->rec_phone }}</td>
-                        </tr>
-                        <tr>
-                            <th>Receiver Address:</th>
-                            <td>{{ $shipment->rec_address }}</td>
-                        </tr>
-                    </table>
-                    <h3> Shipment Info</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <h3> Sender Info</h3>
+                            <hr>
+                            <table class="table table-striped" >
+                                <tr>
+                                    <th>Sender Name:</th>
+                                    <td>{{ optional($shipment)->sender_name }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Sender Email:</th>
+                                    <td>{{ $shipment->sender_email }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Sender Phone:</th>
+                                    <td>{{ $shipment->sender_phone }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Sender Address:</th>
+                                    <td>{{ $shipment->sender_address }}</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="col-6">
+                            <h3> Receiver Info</h3>
+                            <hr>
+                            <table class="table table-striped" >
+                                <tr>
+                                    <th>Receiver Name:</th>
+                                    <td>{{ $shipment->rec_name }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Receiver Email:</th>
+                                    <td>{{ $shipment->rec_email }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Receiver Phone:</th>
+                                    <td>{{ $shipment->rec_phone }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Receiver Address:</th>
+                                    <td>{{ $shipment->rec_address }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <h3 style="background-color: black" class="text-white text-center"> Shipment Info</h3>
                     <table class="table table-striped" >
                         <tr>
                             <th>Shipment Type:</th>
