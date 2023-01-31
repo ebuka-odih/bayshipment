@@ -27,7 +27,7 @@ class AdminShipmentHistoryController extends Controller
         $shipment->location = $request->location;
         $shipment->status = $request->status;
         $shipment->updated_by = "BayShipment Admin";
-        $shipment->shipment_id = $request->status;
+        $shipment->shipment_id = $request->shipment_id;
         $shipment->save();
         return redirect()->back()->with('success', "Shipment Status Updated Successfully");
 

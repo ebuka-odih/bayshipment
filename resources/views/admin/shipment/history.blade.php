@@ -30,9 +30,15 @@
                             </ul>
                         </div>
                     @endif
+                        @if(session()->has('success'))
+                            <div class="alert alert-success">
+                                {{ session()->get('success') }}
+                            </div>
+                        @endif
                     <!-- Form Inline - Default Style -->
-                    <form action="{{ route('admin.shipment.store') }}" method="POST" >
+                    <form action="{{ route('admin.updateHistory') }}" method="POST" >
                         @csrf
+                        <input type="hidden" value="{{ $shipment->id }}" name="shipment_id">
                         <div class="row mb-3">
                             <div class="col-6">
                                 <label class="" for="example-if-name">Location <span class="text-danger">*</span></label>

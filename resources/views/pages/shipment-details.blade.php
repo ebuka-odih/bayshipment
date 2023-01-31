@@ -15,6 +15,11 @@
 <body>
 <br><br>
 <div style="border: 1px solid black" class="container mt-5 mb-5 p-5">
+
+    <div class="visible-print text-center mb-4">
+        <h4 class="text-center ">{{ $shipment->shipment_number }}</h4>
+        {!! QrCode::size(100)->generate($shipment->shipment_number); !!}
+    </div>
     <div class="row">
        <div class="col-6">
            <h4>SENDER INFORMATION</h4>
@@ -151,13 +156,16 @@
         </tr>
         </thead>
         <tbody>
-
+        @foreach($history as $item)
         <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <th scope="row">{{ date('Y-m-d', strtotime($item->created_at)) }}</th>
+            <td>{{ date('h:i a', strtotime($item->created_at)) }}</td>
+            <td>{{ $item->location }}</td>
+            <td><strong>{{ $item->status }}</strong></td>
+            <td>{{ $item->updated_by }}</td>
+            <td>{{ $item->remark }}</td>
         </tr>
+        @endforeach
         </tbody>
     </table>
 

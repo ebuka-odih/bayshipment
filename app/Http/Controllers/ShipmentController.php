@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Shipment;
+use App\ShipmentUpdate;
 use Illuminate\Http\Request;
 
 class ShipmentController extends Controller
@@ -13,9 +14,11 @@ class ShipmentController extends Controller
         $shipment = Shipment::where('shipment_number', $request->shipment_number)->exists();
         if ($shipment) {
             $shipment = Shipment::findOrFail($shipment);
-            return view('pages.shipment-details', compact('shipment'));
+            $history = ShipmentUpdate::where('shipment_id', $shipment->id)->get();
+            return view('pages.shipment-details', compact('shipment', 'history'));
         }
         return redirect()->back()->with('declined', "Sorry! No Such Shipment Code");
     }
+
 
 }
