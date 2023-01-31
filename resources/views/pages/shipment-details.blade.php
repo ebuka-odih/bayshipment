@@ -138,8 +138,28 @@
             <td>{{ $shipment->comment }}</td>
         </tr>
     </table>
-    <h3 style="background-color: black" class="text-white text-center"> SHIPMENT HISTORY</h3>
+    <h4 style="background-color: black" class="text-white text-center"> SHIPMENT HISTORY</h4>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+            <th scope="col">Location</th>
+            <th scope="col">Status</th>
+            <th scope="col">Updated By</th>
+            <th scope="col">Remark</th>
+        </tr>
+        </thead>
+        <tbody>
 
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        </tbody>
+    </table>
 
 </div>
 

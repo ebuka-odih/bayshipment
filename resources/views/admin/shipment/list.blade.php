@@ -26,6 +26,7 @@
                         <tr class="table-dark">
                             <th class="text-center" style="width: 200px;">Date</th>
                             <th>Shipment Code</th>
+                            <th>Shipment History</th>
                             <th class="fw-semibold" style="width: 15%;">Sender</th>
                             <th class="fw-semibold text-center " style="width: 100px;">Actions</th>
                         </tr>
@@ -36,6 +37,9 @@
                             <th class="text-center" scope="row">{{ date('Y-M-d', strtotime($item->created_at)) }}</th>
                             <td class="fw-semibold">
                                 <a href="{{ route('admin.shipment.show', $item->id) }}">{{ $item->shipment_number }}</a>
+                            </td>
+                            <td class="fw-semibold">
+                                <a href="{{ route('admin.history', $item->id) }}" class="btn btn-sm btn-primary">Update History</a>
                             </td>
                             <td class="fw-semibold">
                                 <strong>{{ $item->sender_name }}</strong>
