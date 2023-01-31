@@ -22,7 +22,7 @@
                 </div>
                 <div class="block-content">
                     <h3> Sender Info</h3>
-                    <table class="table" >
+                    <table class="table table-striped" >
                         <tr>
                             <th>Sender Name:</th>
                             <td>{{ $shipment->sender_name }}</td>
@@ -42,7 +42,7 @@
                     </table>
                     <br>
                   <h3> Receiver Info</h3>
-                    <table class="table" >
+                    <table class="table table-striped" >
                         <tr>
                             <th>Receiver Name:</th>
                             <td>{{ $shipment->rec_name }}</td>
@@ -61,7 +61,7 @@
                         </tr>
                     </table>
                     <h3> Shipment Info</h3>
-                    <table class="table" >
+                    <table class="table table-striped" >
                         <tr>
                             <th>Shipment Type:</th>
                             <td>{{ $shipment->type }}</td>
@@ -75,8 +75,64 @@
                             <td>{{ $shipment->mode }}</td>
                         </tr>
                         <tr>
-                            <th>Receiver Address:</th>
-                            <td>{{ $shipment->rec_address }}</td>
+                            <th>Quantity:</th>
+                            <td>{{ $shipment->quantity }}</td>
+                        </tr>
+                        <tr>
+                            <th>Total Freight:</th>
+                            <td>{{ $shipment->total_freight }}</td>
+                        </tr>
+                        <tr>
+                            <th>Carrier No:</th>
+                            <td>{{ $shipment->carrier_no }}</td>
+                        </tr>
+                        <tr>
+                            <th>Origin:</th>
+                            <td>{{ $shipment->origin }}</td>
+                        </tr>
+                        <tr>
+                            <th>Pickup Date:</th>
+                            <td>{{ $shipment->pickup_date }}</td>
+                        </tr>
+                        <tr>
+                            <th>Expected Delivery Date:</th>
+                            <td>{{ $shipment->expected_date }}</td>
+                        </tr>
+                        <tr>
+                            <th>Weight:</th>
+                            <td>{{ $shipment->weight }}</td>
+                        </tr>
+                        <tr>
+                            <th>Package:</th>
+                            <td>{{ $shipment->package }}</td>
+                        </tr>
+                        <tr>
+                            <th>Product:</th>
+                            <td>{{ $shipment->product }}</td>
+                        </tr>
+                        <tr>
+                            <th>Payment Mode:</th>
+                            <td>{{ $shipment->payment_mode }}</td>
+                        </tr>
+                        <tr>
+                            <th>Carrier:</th>
+                            <td>{{ $shipment->carrier }}</td>
+                        </tr>
+                        <tr>
+                            <th>Departure Time:</th>
+                            <td>{{ $shipment->departure_time }}</td>
+                        </tr>
+                        <tr>
+                            <th>Destination:</th>
+                            <td>{{ $shipment->destination }}</td>
+                        </tr>
+                        <tr>
+                            <th>Pickup Date:</th>
+                            <td>{{ $shipment->pickup_time }}</td>
+                        </tr>
+                        <tr>
+                            <th>Comment:</th>
+                            <td>{{ $shipment->comment }}</td>
                         </tr>
                     </table>
 
