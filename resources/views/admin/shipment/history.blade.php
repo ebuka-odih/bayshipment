@@ -314,6 +314,32 @@
                     </form>
                     <!-- END Form Inline - Default Style -->
                     <br>
+
+                        <h4 style="background-color: black" class="text-white text-center"> SHIPMENT HISTORY</h4>
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Date</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Location</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Updated By</th>
+                                <th scope="col">Remark</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @foreach($history as $item)
+                                <tr>
+                                    <th scope="row">{{ date('Y-m-d', strtotime($item->created_at)) }}</th>
+                                    <td>{{ date('h:i a', strtotime($item->created_at)) }}</td>
+                                    <td>{{ $item->location }}</td>
+                                    <td><strong>{{ $item->status }}</strong></td>
+                                    <td>{{ $item->updated_by }}</td>
+                                    <td>{{ $item->remark }}</td>
+                                </tr>
+                            @endforeach
+                            </tbody>
+                        </table>
                 </div>
 
             </div>

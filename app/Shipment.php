@@ -13,4 +13,9 @@ class Shipment extends Model
         $code = "BAY".$this->id."4255362".$this->id."90";
         return $code;
     }
+
+    public function shipmentUpdate()
+    {
+        return $this->hasMany(ShipmentUpdate::class);
+    }
 }

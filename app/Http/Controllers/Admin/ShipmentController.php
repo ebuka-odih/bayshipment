@@ -3,8 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Mail\NewShipment;
 use App\Shipment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ShipmentController extends Controller
 {
@@ -23,7 +25,8 @@ class ShipmentController extends Controller
 
         $data = $this->getData($request);
         $data['shipment_number'] = $this->trackingNo();
-        Shipment::create($data);
+        $data = Shipment::create($data);
+        Mail::to($data->rec_email)->send(new NewShipment($data));
         return redirect()->route('admin.shipment.index')->with('success', "Shipment Created Successful");
     }
 
