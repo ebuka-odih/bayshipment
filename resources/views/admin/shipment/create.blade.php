@@ -403,6 +403,11 @@
                         </div>
                         <div class="col-4">
                             <label class="" for="example-if-password"> Mode Of Payment</label>
+                            <select name="payment_mode" id="" class="form-control">
+                                <option selected>Select Mode Of Payment</option>
+                                <option value="Crypto Payment">Crypto Payment</option>
+                                <option value="Bank Transfer">Bank Transfer</option>
+                            </select>
                             <input type="text" class="form-control" id="example-if-password" name="payment_mode" >
                         </div>
                         <div class="col-4">

@@ -294,6 +294,7 @@
                                 <label class="" for="example-if-password">Status <span class="text-danger">*</span></label>
                                 <select name="status" id="" class="form-control">
                                     <option selected>Select Status</option>
+                                    <option value="En-Route">En-Route</option>
                                     <option value="Cancelled">Cancelled</option>
                                     <option value="Delivered">Delivered</option>
                                     <option value="Ready For Consolidation">Ready For Consolidation</option>
