@@ -408,7 +408,6 @@
                                 <option value="Crypto Payment">Crypto Payment</option>
                                 <option value="Bank Transfer">Bank Transfer</option>
                             </select>
-                            <input type="text" class="form-control" id="example-if-password" name="payment_mode" >
                         </div>
                         <div class="col-4">
                             <label class="" for="example-if-email">Carrier</label>
