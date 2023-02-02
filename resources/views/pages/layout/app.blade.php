@@ -368,23 +368,14 @@
                             <div class="et-el-icon extra-small " style="color:#fd8c40"><span class="el-icon far fa-envelope-open animate-false"></span></div>
                             <span class="et-gap-inline et-clearfix" style="width:4px"></span><span style="color:#ffffff;font-size:16px;line-height:24px">Email: info@bayshipment.com</span>
                         </div>
-                        <a class="top-button" href="http://trackpluscp.courierplus-ng.com/selfcare/shipmentrackpage.aspx">Track Now</a>
+                        <a class="top-button" href="#track">Track Now</a>
 
                         <nav class="header-top-menu et-clearfix">
                         </nav>
                     </div>
                 </div>
                 <div class="header-body">
-                    <div class="header-search-modal">
-                        <div class="container">
-                            <form class="search-form" action="https://www.courierplus-ng.com//" method="get">
-                                <fieldset>
-                                    <input type="text" name="s" placeholder="Search..." />
-                                    <input type="submit" />
-                                    <div class="search-icon"></div>
-                                </fieldset>
-                            </form>				</div>
-                    </div>
+
                     <div class="container et-clearfix">
                         <div class="logo logo-desk">
                             <a href="{{ route('index') }}" title="CourierPlus Nigeria">
@@ -554,6 +545,21 @@
 <script type='text/javascript' src='wp-content/themes/globax/js/controller-combined6a4d.js?ver=6.1.1' id='controller-js'></script>
 <script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min31dc.js?ver=6.6.0' id='wpb_composer_front_js-js'></script>
 <script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min31dc.js?ver=6.6.0' id='vc_waypoints-js'></script>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/63dad5f6c2f1ac1e2030e455/1go7d7k1h';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 
 <!-- Mirrored from www.courierplus-ng.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Jan 2023 10:17:11 GMT -->
