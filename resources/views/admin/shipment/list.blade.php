@@ -36,7 +36,8 @@
                         <tr>
                             <th class="text-center" scope="row">{{ date('Y-M-d', strtotime($item->created_at)) }}</th>
                             <td class="fw-semibold">
-                                <a href="{{ route('admin.shipment.show', $item->id) }}">{{ $item->shipment_number }}</a>
+                                <a  href="{{ route('admin.shipment.show', $item->id) }}"><span id="foo">{{ $item->shipment_number }}</span></a>
+                                <a href="#" class="btn" data-clipboard-target="#foo"><i class="fa fa-copy"></i></a>
                             </td>
                             <td class="fw-semibold">
                                 <a href="{{ route('admin.history', $item->id) }}" class="btn btn-sm btn-primary">Update History</a>
@@ -66,5 +67,9 @@
         </div>
         <!-- END Page Content -->
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
 
+    <script>
+        new ClipboardJS('.btn');
+    </script>
 @endsection
