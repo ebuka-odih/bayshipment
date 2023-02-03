@@ -488,6 +488,11 @@
                                 </div>
                                 <form action="{{ route('trackShipment') }}" method="POST"  >
                                     @csrf
+                                    @if(session()->has('declined'))
+                                        <div style="color: green" class="alert alert-success">
+                                            {{ session()->get('declined') }}
+                                        </div>
+                                    @endif
                                     <div class="inline-row et-clearfix" style="margin:0px -12px 0px -12px;">
                                         <div class="inline-column et-clearfix" style="width:50%; padding:0px 12px 0px 12px;">
                                               <span class="wpcf7-form-control-wrap" data-name="trackingrequest">
