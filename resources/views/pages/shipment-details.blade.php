@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
-        @media only screen and (max-width: 600px) {
-            .container {
-                width: 1000px;
+        @media (min-width: 1200px) {
+            .container-fluid {
+                width: 1050px;
             }
         }
         h5 {
@@ -26,7 +26,7 @@
 </head>
 <body>
 <br><br>
-<div style="border: 1px solid black" class="container mt-5 mb-5 ">
+<div style="border: 1px solid black" class="container-fluid mt-5 mb-5 ">
 
     <div class="visible-print text-center mb-4">
         <h4 class="text-center ">{{ $shipment->shipment_number }}</h4>

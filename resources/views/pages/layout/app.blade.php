@@ -346,7 +346,7 @@
                     <div class="header-logo-area">
                         <div class="container">
                             <div class="logo logo-desk">
-                                <a href="index.html" title="CourierPlus Nigeria">
+                                <a href="{{ route('index') }}" title="CourierPlus Nigeria">
                                     <h4 style="font-weight: bolder; margin-top: 10px; color: #d18585">BayShipment</h4>
                                 </a>
                             </div>
