@@ -72,4 +72,11 @@ class ShipmentController extends Controller
         ];
         return $request->validate($rules);
     }
+
+    public function destroy($id)
+    {
+        $shipment = Shipment::findOrFail($id);
+        $shipment->delete();
+        return redirect()->back();
+    }
 }

@@ -50,9 +50,19 @@
                                     <button type="button" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit">
                                         <i class="fa fa-pencil-alt"></i>
                                     </button>
-                                    <button type="button" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="" data-bs-original-title="Delete">
-                                        <i class="fa fa-times"></i>
-                                    </button>
+                                    <form method="POST" action="{!! route('admin.shipment.destroy', $item->id) !!}" accept-charset="UTF-8">
+                                        <input name="_method" value="DELETE" type="hidden">
+                                        {{ csrf_field() }}
+
+                                        <div class="btn-group btn-group-xs pull-right" role="group">
+
+                                            <button type="submit" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="" data-bs-original-title="Delete" onclick="return confirm(&quot;Delete Shipment?&quot;)">
+                                                <i class="fa fa-times"></i>
+                                            </button>
+                                            
+                                        </div>
+
+                                    </form>
                                 </div>
                             </td>
 
