@@ -406,6 +406,7 @@
                             <select name="payment_mode" id="" class="form-control">
                                 <option selected>Select Mode Of Payment</option>
                                 <option value="Crypto Payment / Bank Transfer">Crypto Payment / Bank Transfer</option>
+                                <option value="Cash Payment">Cash Payment</option>
 
                             </select>
                         </div>
