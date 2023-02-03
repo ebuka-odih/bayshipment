@@ -30,7 +30,7 @@ class NewShipment extends Mailable
     public function build()
     {
         return $this->view('emails.new-shipment')
-            ->from(env("MAIL_FROM_ADDRESS", env('APP_NAME'))
-                ->subject(env('APP_NAME')));
+            ->from(env("MAIL_FROM_ADDRESS", env('APP_NAME')))
+            ->subject(env('APP_NAME'));
     }
 }
