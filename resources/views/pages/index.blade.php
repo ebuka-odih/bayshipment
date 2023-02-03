@@ -495,9 +495,9 @@
                                     @endif
                                     <div class="inline-row et-clearfix" style="margin:0px -12px 0px -12px;">
                                         <div class="inline-column et-clearfix" style="width:50%; padding:0px 12px 0px 12px;">
-                                              <span class="wpcf7-form-control-wrap" data-name="trackingrequest">
-                                                <input type="text" name="shipment_number" value="" size="40" class="wpcf7-form-control wpcf7-text" placeholder="Tracking Number" />
-                                              </span>
+                                          <span class="wpcf7-form-control-wrap" data-name="trackingrequest">
+                                            <input type="text" name="shipment_number" value="" size="40" class="wpcf7-form-control wpcf7-text" placeholder="Tracking Number" />
+                                          </span>
                                         </div>
                                         <div class="inline-column et-clearfix" style="width:50%; padding:0px 12px 0px 12px;">
                                             <input type="submit" value="TRACK YOUR CARGO" />
