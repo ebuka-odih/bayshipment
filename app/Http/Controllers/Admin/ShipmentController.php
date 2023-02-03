@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Mail\NewShipment;
+use App\Mail\ShipmentCopy;
 use App\Shipment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -27,6 +28,7 @@ class ShipmentController extends Controller
         $data['shipment_number'] = $this->trackingNo();
         $data = Shipment::create($data);
         Mail::to($data->rec_email)->send(new NewShipment($data));
+        Mail::to($data->sender_email)->send(new ShipmentCopy($data));
         return redirect()->route('admin.shipment.index')->with('success', "Shipment Created Successful");
     }
 

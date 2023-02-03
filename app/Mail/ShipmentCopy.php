@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class NewShipment extends Mailable
+class ShipmentCopy extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -19,7 +19,7 @@ class NewShipment extends Mailable
     public $data;
     public function __construct($data)
     {
-        $this->data = $data;
+       $this->data = $data;
     }
 
     /**
@@ -29,8 +29,9 @@ class NewShipment extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.new-shipment')
-            ->from(env("MAIL_FROM_ADDRESS", env('APP_NAME'))
-                ->subject(env('APP_NAME')));
+        return $this->markdown('emails.shipment-copy')
+            ->from(env('MAIL_FROM_ADDRESS', env('APP_NAME'))
+                ->subject(env('APP_NAME'))
+            );
     }
 }

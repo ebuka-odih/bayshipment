@@ -294,6 +294,14 @@
                                 <label class="" for="example-if-password">Status <span class="text-danger">*</span></label>
                                 <select name="status" id="" class="form-control">
                                     <option selected>Select Status</option>
+                                    <option value="In Transit">In Transit</option>
+                                    <option value="Security Check">Security Check</option>
+                                    <option value="Security Check Complete">Security Check Complete</option>
+                                    <option value="Sized by Authorities">Sized by Authorities</option>
+                                    <option value="Released by Authorities">Released by Authorities</option>
+                                    <option value="Preparing shipment">Preparing shipment</option>
+                                    <option value="Label created">Label created</option>
+                                    <option value="Out for delivery">Out for delivery</option>
                                     <option value="En-Route">En-Route</option>
                                     <option value="Cancelled">Cancelled</option>
                                     <option value="Delivered">Delivered</option>
