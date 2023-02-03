@@ -543,22 +543,10 @@
                             <span class="nav-main-link-name">Add Shipment</span>
                         </a>
                     </li>
-                    <li class="nav-main-heading">Interface</li>
-                    <li class="nav-main-item">
-                        <a class="nav-main-link"  href="#">
-                            <i class="nav-main-link-icon fa fa-flask"></i>
-                            <span class="nav-main-link-name">Send Email</span>
-                        </a>
+                    <li class="nav-main-heading">security</li>
 
-                    </li>
                     <li class="nav-main-item">
-                        <a class="nav-main-link"  href="#">
-                            <i class="nav-main-link-icon fa fa-tools"></i>
-                            <span class="nav-main-link-name">Settings</span>
-                        </a>
-                    </li>
-                    <li class="nav-main-item">
-                        <a class="nav-main-link"  href="#">
+                        <a class="nav-main-link"  href="{{ route('admin.security') }}">
                             <i class="nav-main-link-icon fa fa-shield-alt"></i>
                             <span class="nav-main-link-name">Security</span>
                         </a>
@@ -633,12 +621,7 @@
                 <!-- END User Dropdown -->
 
 
-                <!-- Toggle Side Overlay -->
-                <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
-                <button type="button" class="btn btn-alt-secondary" data-toggle="layout" data-action="side_overlay_toggle">
-                    <i class="far fa-fw fa-list-alt"></i>
-                </button>
-                <!-- END Toggle Side Overlay -->
+               
             </div>
             <!-- END Right Section -->
         </div>

@@ -10,4 +10,8 @@ Route::group(['middleware' => ['auth', 'verified', 'admin'], 'prefix' => 'admin'
     Route::resource('shipment', 'Admin\ShipmentController');
     Route::get('shipment/history/{id}', "Admin\AdminShipmentHistoryController@history")->name('history');
     Route::post('update/shipment/history/', "Admin\AdminShipmentHistoryController@updateHistory")->name('updateHistory');
+
+    Route::get('security', "Admin\AdminController@security")->name('security');
+    Route::post('change-password', 'Admin\AdminController@store')->name('change.password');
+
 });
