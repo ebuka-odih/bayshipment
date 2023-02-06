@@ -47,9 +47,9 @@
                             </td>
                             <td class="text-center fw-semibold">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit">
+                                    <a href="{{ route('admin.shipment.edit', $item->id) }}" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="" data-bs-original-title="Edit">
                                         <i class="fa fa-pencil-alt"></i>
-                                    </button>
+                                    </a>
                                     <form method="POST" action="{!! route('admin.shipment.destroy', $item->id) !!}" accept-charset="UTF-8">
                                         <input name="_method" value="DELETE" type="hidden">
                                         {{ csrf_field() }}

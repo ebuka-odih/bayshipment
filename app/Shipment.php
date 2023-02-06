@@ -18,4 +18,5 @@ class Shipment extends Model
     {
         return $this->hasMany(ShipmentUpdate::class);
     }
+
 }

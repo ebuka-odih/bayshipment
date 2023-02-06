@@ -38,6 +38,20 @@ class ShipmentController extends Controller
         return view('admin.shipment.detail', compact('shipment'));
     }
 
+    public function edit($id)
+    {
+        $shipment = Shipment::findOrFail($id);
+        return view('admin.shipment.edit', compact('shipment'));
+    }
+
+    public function update(Request $request, $id)
+    {
+        $data = $this->getData($request);
+        $shipment = Shipment::findOrFail($id);
+        $shipment->update($data);
+        return redirect()->back()->with('success', "Shipment Updated Successfully");
+    }
+
     protected function getData(Request $request)
     {
         $rules = [
@@ -79,4 +93,5 @@ class ShipmentController extends Controller
         $shipment->delete();
         return redirect()->back();
     }
+
 }
